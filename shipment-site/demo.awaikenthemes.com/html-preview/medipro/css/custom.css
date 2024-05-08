@@ -126,6 +126,7 @@ body{
 .container-xxl{
     padding-right: 15px;
     padding-left: 15px;
+	
 }
 
 .image-anime{
@@ -963,7 +964,19 @@ header.main-header .header-sticky.active{
 /************************************/
 /****		07. Services Css	 ****/
 /************************************/
+.about-servies{
+	display: flex;
+	margin-top: 10px;
+}
 
+.about-servies .col-lg-4.col-md-4{
+	padding: 10px;
+}
+
+
+.latest-news-blogs {
+	margin-top: 70px;
+}
 .medical-services{
 	padding: 50px 0 70px;
 	background: url('../images/half-circle-3.png');
@@ -1551,8 +1564,10 @@ header.main-header .header-sticky.active{
 /*************************************/
 
 .main-footer{
-	padding: 80px 0 40px;
+	padding: 80px 0px 40px;
+	padding-left: 150px;
 	background: var(--primary-color);
+	
 }
 
 .about-footer{
@@ -1725,6 +1740,10 @@ header.main-header .header-sticky.active{
 .footer-copyright{
 	text-align: center;
 	margin-top: 50px;
+}
+
+.footer-copyright-text {
+	margin-left: -100px;
 }
 
 .footer-copyright-text p{
@@ -3283,6 +3302,10 @@ header.main-header .header-sticky.active{
 	padding: 40px 0;
 }
 
+
+.email-address {
+	word-break: break-all;
+}
 .contact-item .icon-box{
 	margin-right: 10px;
 }
@@ -3292,14 +3315,18 @@ header.main-header .header-sticky.active{
 	color: var(--accent-color);
 }
 
+
 .contact-info-content h3{
+	
 	font-size: 22px;
 	color: var(--secondry-color);
 	margin-bottom: 5px;
 }
 
 .contact-info-content p{
-	font-size: 16px;
+
+	word-wrap: break-word;
+	font-size: 13px;
 	color: var(--transparent-color);
 }
 
@@ -3718,6 +3745,7 @@ header.main-header .header-sticky.active{
 
     .main-footer{
         padding: 60px 0 20px;
+		
     }
     
     .about-footer{
@@ -4129,8 +4157,8 @@ header.main-header .header-sticky.active{
 	}
 
 	.contact-information{
-        max-width: 700px;
-        margin-bottom: 25px;
+        max-width: 800px;
+        margin-bottom: 50px;
     }
 
     .contact-item{
@@ -4573,6 +4601,8 @@ header.main-header .header-sticky.active{
     .contact-item{
         padding: 20px 0;
     }
+
+	
 
     .contact-item .icon-box i{
         font-size: 26px;
