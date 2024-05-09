@@ -42,13 +42,13 @@
 
 :root{
 	--body-background				: #FFF7F4;
-	--primary-color					: #07332F;
+	--primary-color					: #e5ae65;
 	--text-color					: #000000;
-	--accent-color					: #F7A582;
+	--accent-color					: #000000;
 	--secondry-color				: #FFFFFF;
 	--transparent-color				: #FFFFFF80;
 	--transparent-secondry-color	: #00000080;
-	--light-Background				: #1F3F37;
+	--light-Background				: white;
 	--light-accent-color			: #FEEFE9;
 	--default-font					: "Figtree", sans-serif;;
 }
@@ -428,6 +428,10 @@ header.main-header .header-sticky.active{
 	align-items: center;
 }
 
+.navbar-brand img {
+	height: 100px;
+	width: 100[px];
+}
 .navbar-brand{
 	padding: 0;
 	margin: 0;
@@ -452,7 +456,7 @@ header.main-header .header-sticky.active{
 	font-size: 18px;
 	font-weight: 400;
 	padding: 15px 10px !important;
-	color: var(--secondry-color);
+	color: black;
 	text-transform: capitalize;
 	transition: all 0.3s ease-in-out;
 }
@@ -662,7 +666,9 @@ header.main-header .header-sticky.active{
 
 .hero{
 	padding: 120px 0;
-	background: url('../images/half-circle-img.png') no-repeat bottom right 30px, var(--primary-color);
+	background: url('../images/banner.jpg') no-repeat bottom right 0px, var(--primary-color);
+	
+	
 	position: relative;
 }
 
@@ -670,6 +676,7 @@ header.main-header .header-sticky.active{
 	position: absolute;
 	content: '';
 	background: url('../images/half-shape.png') no-repeat bottom left;
+	
 	height: 100%;
 	width: 100%;
 	bottom: 0;
@@ -684,11 +691,11 @@ header.main-header .header-sticky.active{
 }
 
 .hero-content .section-title h3{
-	color: var(--secondry-color);
+	color: white;
 }
 
 .hero-content .section-title h1{
-	color: var(--accent-color);
+	color: rgb(238, 94, 42);
 }
 
 .hero-body{
@@ -696,9 +703,9 @@ header.main-header .header-sticky.active{
 }
 
 .hero-body p{
-    font-size: 18px;
+    font-size: 20px;
 	font-weight: 400;
-    color: var(--transparent-color);
+    color: white;
 }
 
 .hero-footer{
@@ -1762,8 +1769,9 @@ header.main-header .header-sticky.active{
 
 .subpage-header{
 	padding: 150px 0 100px;
-	background: var(--primary-color) url('../images/half-shape.png') no-repeat 6% 100%;
-	background-size: 19% auto;
+	background: var(--primary-color) url('../images/banner.jpg') no-repeat 6% 100%;
+	background-position: center;
+	background-size: cover;
 	position: relative;
 }
 
@@ -1774,7 +1782,6 @@ header.main-header .header-sticky.active{
 	right: 0;
 	width: 300px;
 	height: 100%;
-	background: url('../images/half-circle-img.png') no-repeat 50% 100%;
 	background-size: 70% auto;
 	opacity: 1;
 }
@@ -1790,7 +1797,7 @@ header.main-header .header-sticky.active{
 .subpage-header-box h1{
 	font-family: var(--accent-font);
 	font-size: 48px;
-	color: var(--accent-color);
+	color: white;
 	margin-bottom: 10px;
 }
 
@@ -3288,7 +3295,7 @@ header.main-header .header-sticky.active{
 .contact-information{
 	background-color: var(--primary-color);
 	width: 100%;
-	max-width: 800px;
+	max-width: 900px;
 	margin: 0 auto;
 	padding: 0 20px;
 	margin-top: -70px;
@@ -3534,6 +3541,10 @@ header.main-header .header-sticky.active{
     .hero{
         padding: 60px 0;
 		background-size: 30% auto;
+		background-image: url('images/banner.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		
     }
 
     .hero-content{
