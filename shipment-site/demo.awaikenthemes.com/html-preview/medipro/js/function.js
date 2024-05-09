@@ -4,10 +4,10 @@
 	var $window = $(window); 
 	var $body = $('body'); 
 
-	/* Preloader Effect */
+	/* Prelogo Effect */
 	$window.on('load', function(){
 		setHeaderHeight();
-		$(".preloader").fadeOut(600);
+		$(".prelogo").fadeOut(600);
 	});
 	
 	/* Sticky Header */
@@ -325,7 +325,7 @@
 			type: 'iframe',
 			mainClass: 'mfp-fade',
 			removalDelay: 160,
-			preloader: false,
+			prelogo: false,
 			fixedContentPos: false
 		});
 	}	

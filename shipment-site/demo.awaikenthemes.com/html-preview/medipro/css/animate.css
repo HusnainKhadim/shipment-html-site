@@ -3176,7 +3176,7 @@ Copyright (c) 2014 Daniel Eden
     100% { opacity:1; }
 }
 
-@keyframes loader {
+@keyframes logo {
 	0% {
 		transform: rotate(0deg);
 	}
@@ -3198,7 +3198,7 @@ Copyright (c) 2014 Daniel Eden
 	}
 }
 
-@keyframes loader-inner {
+@keyframes logo-inner {
 	0% {
 		height: 0%;
 	}
