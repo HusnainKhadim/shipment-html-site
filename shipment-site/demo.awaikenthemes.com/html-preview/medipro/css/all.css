@@ -7186,6 +7186,10 @@ readers do not read off random characters that represent icons */
 .fa-facebook-f:before {
   content: "\f39e"; }
 
+  .fa-pinterest:before {
+    content: "\f231";
+  }
+
 .fa-square-google-plus:before {
   content: "\f0d4"; }
 
