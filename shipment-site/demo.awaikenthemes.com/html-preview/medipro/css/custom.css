@@ -42,9 +42,9 @@
 
 :root{
 	--body-background				: #FFF7F4;
-	--primary-color					: #e5ae65;
+	--primary-color					: #cc8f3e;
 	--text-color					: #000000;
-	--accent-color					: #000000;
+	--accent-color					: #17087d;
 	--secondry-color				: #FFFFFF;
 	--transparent-color				: #FFFFFF80;
 	--transparent-secondry-color	: #00000080;
@@ -695,7 +695,7 @@ header.main-header .header-sticky.active{
 }
 
 .hero-content .section-title h1{
-	color: rgb(238, 94, 42);
+	color: var(--primary-color);
 }
 
 .hero-body{
@@ -1769,7 +1769,7 @@ header.main-header .header-sticky.active{
 
 .subpage-header{
 	padding: 150px 0 100px;
-	background: var(--primary-color) url('../images/banner.jpg') no-repeat 6% 100%;
+	background: var(--primary-color) url('../images/ship-on-port.jpg') no-repeat 6% 100%;
 	background-position: center;
 	background-size: cover;
 	position: relative;
