@@ -1751,17 +1751,33 @@ header.main-header .header-sticky.active{
 
 .footer-copyright-text {
 	margin-left: -100px;
+	
 }
 
 .footer-copyright-text p{
 	color: var(--secondry-color);
 	text-transform: capitalize;
+	text-align: center;
 }
 
 .footer-copyright-text p span{
 	color: var(--accent-color);
 	font-weight: 600;
+	display: inline-block;
+	
 }
+
+
+
+@media screen and (max-width: 767px) {
+    .footer-copyright-text p {
+        margin-left: 100px;
+		text-wrap: wrap;
+    }
+	
+}
+
+
 
 /*************************************/
 /****   15. About us Page css     ****/
@@ -3756,6 +3772,7 @@ header.main-header .header-sticky.active{
 
     .main-footer{
         padding: 60px 0 20px;
+
 		
     }
     
@@ -3794,7 +3811,6 @@ header.main-header .header-sticky.active{
 
 	.subpage-header{
 		padding: 100px 0 50px;
-		background-size: 20% auto;
 	}
 
 	.subpage-header::before{
@@ -4222,11 +4238,11 @@ header.main-header .header-sticky.active{
     }
 }
 
+
+
 @media only screen and (max-width: 767px){
 
-	.navbar-brand img{
-        max-width: 140px;
-    }
+
     
     .section-row{
         margin-bottom: 30px;
@@ -4401,7 +4417,7 @@ header.main-header .header-sticky.active{
 
 	.subpage-header{
 		padding: 80px 0 50px;
-		background-size: 35% auto;
+		
 	}
 
 	
