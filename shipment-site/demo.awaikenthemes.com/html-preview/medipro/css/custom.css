@@ -4404,11 +4404,7 @@ header.main-header .header-sticky.active{
 		background-size: 35% auto;
 	}
 
-	.subpage-header::before{
-		background: url(../images/half-circle-img.png) no-repeat 80% 100%;
-		background-size: 60% auto;
-	}
-
+	
 	.subpage-header-box h1{
 		font-size: 28px;
 	}
